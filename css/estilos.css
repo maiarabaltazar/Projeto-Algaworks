@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  height: 60px; /*distancia inferior da imagem até a borda*/
+  border-bottom: 1px solid #ccc; /*borda inferior*/
+}
+
+header img {
+  margin-top: 12px; /*margem superior, ou seja, distancia do cabecalho para início da pagina*/
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px; /*espaçamento esquerdo*/
+  padding-right: 15px; /*espaçamento direito*/
+  margin: 0 auto; /*centraliza o container*/
+}
+
+#planos {
+  padding: 80px 0;
+}
+
+article {  /*plano*/
+  padding: 10px;
+  border: 1px solid #95a4a5;
+  width: 370px;
+}
+
+article > h2 { /*título do plano*/
+  background-color: #95a4a5;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5; 
+  margin: -10px; /*para colar o fundo com a borda, pois tem o padding*/
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+article > div { /*preço*/
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0; /*margem superior e inferior de 20px e esquerda e direito 0*/
+}
+
+article > ul { /*lista*/
+  list-style: none; /*tira o estilo, as bolinhas*/
+  padding: 0;
+  margin: 20px 0;
+}
+
+article > ul > li { /*itens*/
+  text-align: center;
+}
+
+article > footer { /*rodapé do plano*/
+  text-align: center;
+}
