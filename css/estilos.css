@@ -29,10 +29,18 @@ header img {
   padding: 80px 0;
 }
 
+#planos::after { /*pseudo-elemento depois*/
+  content: "";
+  display: block;
+  clear:both;
+}
+
 article {  /*plano*/
   padding: 10px;
   border: 1px solid #95a4a5;
   width: 370px;
+  float: left; /*coloca os planos/caixas para flutuar a esquerda*/
+  margin-right: 30px; /*para ficar um espaço entre os planos*/
 }
 
 article > h2 { /*título do plano*/
