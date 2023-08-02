@@ -38,9 +38,15 @@ header img {
 article {  /*plano*/
   padding: 10px;
   border: 1px solid #95a4a5;
-  width: 30%;
+  }
+
+@media (min-width: 800px) { /*significa janela mínima. Quando essa regra for verdadeira, ou seja, estiver em um dispositivo com tela menor (a partor de 800px nesse caso), o estilo será aplicado*/
+  article {
+    width: 30%;
   float: left; /*coloca os planos/caixas para flutuar a esquerda*/
   margin-right: 5%; /*para ficar um espaço entre os planos*/
+  }
+  /*pode usar mais de um media queries*/
 }
 
 article > h2 { /*título do plano*/
