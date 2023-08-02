@@ -19,7 +19,7 @@ header img {
 }
 
 .container {
-  width: 1200px;
+  width: 100%; /*assim, fica compatível com qualquer dispositivo*/
   padding-left: 15px; /*espaçamento esquerdo*/
   padding-right: 15px; /*espaçamento direito*/
   margin: 0 auto; /*centraliza o container*/
@@ -38,9 +38,9 @@ header img {
 article {  /*plano*/
   padding: 10px;
   border: 1px solid #95a4a5;
-  width: 370px;
+  width: 30%;
   float: left; /*coloca os planos/caixas para flutuar a esquerda*/
-  margin-right: 30px; /*para ficar um espaço entre os planos*/
+  margin-right: 5%; /*para ficar um espaço entre os planos*/
 }
 
 article > h2 { /*título do plano*/
