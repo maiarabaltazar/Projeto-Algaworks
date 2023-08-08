@@ -18,12 +18,14 @@ header img {
   margin-top: 12px; /*margem superior, ou seja, distancia do cabecalho para início da pagina*/
 }
 
-.container {
-  width: 100%; /*assim, fica compatível com qualquer dispositivo*/
-  padding-left: 15px; /*espaçamento esquerdo*/
-  padding-right: 15px; /*espaçamento direito*/
-  margin: 0 auto; /*centraliza o container*/
-}
+/*.container {
+  width: 100%; assim, fica compatível com qualquer dispositivo
+  padding-left: 15px; espaçamento esquerdo
+  padding-right: 15px; espaçamento direito
+  margin: 0 auto; centraliza o container
+
+  o bootstrap já tem a classe de container.
+}*/
 
 #planos {
   padding: 80px 0;
@@ -40,14 +42,14 @@ article {  /*plano*/
   border: 1px solid #95a4a5;
   }
 
-@media (min-width: 800px) { /*significa janela mínima. Quando essa regra for verdadeira, ou seja, estiver em um dispositivo com tela menor (a partor de 800px nesse caso), o estilo será aplicado*/
+/*@media (min-width: 800px) { significa janela mínima. Quando essa regra for verdadeira, ou seja, estiver em um dispositivo com tela menor (a partor de 800px nesse caso), o estilo será aplicado
   article {
     width: 30%;
-  float: left; /*coloca os planos/caixas para flutuar a esquerda*/
-  margin-right: 5%; /*para ficar um espaço entre os planos*/
-  }
-  /*pode usar mais de um media queries*/
-}
+  float: left; coloca os planos/caixas para flutuar a esquerda
+  margin-right: 5%; para ficar um espaço entre os planos 
+  
+  pode usar mais de um media queries
+}*/
 
 article > h2 { /*título do plano*/
   background-color: #95a4a5;
