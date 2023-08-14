@@ -1,5 +1,5 @@
 /*header {*/ 
-    .layout-cabecalho { /*é melhor colocar com classe css - bloco - no lugar da tag.
+    .layout-cabecalho { /*é melhor colocar com classe css - bloco - no lugar da tag.*/
     height: 60px; /*distancia inferior da imagem até a borda*/
     border-bottom: 1px solid #ccc; /*borda inferior*/
   }
