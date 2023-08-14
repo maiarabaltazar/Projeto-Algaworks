@@ -1,0 +1,30 @@
+/*header {*/ 
+    .layout-cabecalho { /*é melhor colocar com classe css - bloco - no lugar da tag.
+    height: 60px; /*distancia inferior da imagem até a borda*/
+    border-bottom: 1px solid #ccc; /*borda inferior*/
+  }
+  
+  .layout-cabecalho img {
+    margin-top: 12px; /*margem superior, ou seja, distancia do cabecalho para início da pagina*/
+  }
+  
+/*.container {
+  width: 100%; assim, fica compatível com qualquer dispositivo
+  padding-left: 15px; espaçamento esquerdo
+  padding-right: 15px; espaçamento direito
+  margin: 0 auto; centraliza o container
+
+  o bootstrap já tem a classe de container.
+}*/
+
+/*#planos { -> Com o BEM não é recomendado usar o seletor pelo id*/
+    .layout-planos{
+    padding: 80px 0;
+  }
+  
+ /*com o sistema de strap não precisa mais disso
+  #planos::after { pseudo-elemento depois
+    content: "";
+    display: block;
+    clear:both;
+  }*/
