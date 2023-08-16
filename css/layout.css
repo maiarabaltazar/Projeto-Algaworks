@@ -2,6 +2,16 @@
     .layout-cabecalho { /*é melhor colocar com classe css - bloco - no lugar da tag.*/
     height: 60px; /*distancia inferior da imagem até a borda*/
     border-bottom: 1px solid #ccc; /*borda inferior*/
+
+    background-color: #fff;
+  }
+
+  .layout-cabecalho--home {
+    position: fixed; /*para o cabeçalho ficar fixo mesmo rolando a tela*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999; /*para o cabeçalho ficar por cima dos elementos conforme for rolando a tela (prioridade)*/
   }
   
   .layout-cabecalho img {
@@ -33,4 +43,13 @@
     padding: 80px 0;
   
     background-color: #7ab55c;
+  }
+
+  .layout-rodape {
+    padding: 40px 0;
+  
+    background-color: #484848;
+  
+    color: #fff;
+    text-align: center;
   }
