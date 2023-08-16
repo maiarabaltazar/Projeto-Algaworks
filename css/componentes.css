@@ -86,3 +86,52 @@ PLANO
   .botao--assinar:hover, .botao--assinar:focus {
     background-color: #0e6400;
   }
+
+  .botao--principal {
+    border-radius: 10px;
+  
+    background-color: #004b86;
+  }
+  
+  .botao--principal:hover, .botao--principal:focus {
+    background-color: #003b6a;
+  }
+
+  /*--------------------*\
+  CHAMADA
+  \*--------------------*/
+.chamada {
+  font-size: 1.6rem; /* 1.6 * 10px = 16px */
+  text-align: center;
+}
+
+.chamada__titulo {
+  margin: 0;
+
+  color: #fff;
+
+  font-size: 3.375em; /* 54px / 16px = 3.375 */
+  line-height: 0.9;
+  text-shadow: 1px 1px #313131; /*aplica sombras na fonte - eixo x e y*/
+}
+
+.chamada__subtitulo {
+  margin: 60px 0;
+
+  color: #fff;
+
+  font-size: 1em;
+}
+
+.chamada__acao {
+  font-size: 1em;
+}
+
+@media(min-width: 992px) { /*a partir de do tamanho médio -992px - aplicará as seguintes regras:*/
+  .chamada {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 2.2rem; /* 2.2 * 10px = 22px */
+  }
+}
