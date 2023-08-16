@@ -5,6 +5,9 @@ PLANO
 .plano {  
     padding: 10px;
     border: 1px solid #95a4a5;
+
+    font-size: 1.4rem;
+    /*font-size: 0.875rem; /*tamanho de fonte padrão do navegador é 16px. Para ñ colocar tamanho fixo, coloca 'rem' - equivalente ao tamanbo padrão do navegador - 0.875 equivale a 14 de 16*/
     }
   
   /*@media (min-width: 800px) { significa janela mínima. Quando essa regra for verdadeira, ou seja, estiver em um dispositivo com tela menor (a partor de 800px nesse caso), o estilo será aplicado
@@ -26,14 +29,14 @@ PLANO
     text-align: center;
     line-height: 2.5; 
     font-weight: normal;
-    font-size: 28px;
+    font-size: 2em; /*Fica o dobro do tamanho do elemento pai - plano -*/
   }
   
   .plano__preco { /*preço*/
     margin: 20px 0; /*margem superior e inferior de 20px e esquerda e direito 0*/
     
     text-align: center;
-    font-size: 28px;
+    font-size: 2em;
     
   }
   
@@ -41,8 +44,9 @@ PLANO
     padding: 0;
     margin: 20px 0;
 
-    list-style: none; /*tira o estilo, as bolinhas*/
-    
+    font-size: 1em;
+
+    list-style: none; /*tira o estilo, as bolinhas*/    
   }
   
   .plano__caracteristicas > li { /*itens*/
@@ -59,7 +63,7 @@ PLANO
   \*--------------------*/
   .botao {
     display: inline-block;
-    padding: 12px 16px;
+    padding: 0.8em 1.2em;
 
     background-color: #bbb;
     color: #fff;

@@ -7,9 +7,13 @@
   }
 */
 
+hmtl {
+  font-size: 62.5%; /*% do tamanho da fonte padrão do navegador (16px)*/
+}
+
 body {
     margin: 0;
   
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
   }
