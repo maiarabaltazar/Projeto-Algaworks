@@ -53,3 +53,10 @@
     color: #fff;
     text-align: center;
   }
+
+  @media(max-width: 749px) {
+    .layout-planos .row > div:not(.ultima-coluna) { /*para os planos não ficarem colados um no outro quando diminuir a tela*/
+      margin-bottom: 40px;
+      /*div:not -> não aplicar a regra no div ultima-coluna (para não aumentar o espaço até o rodapé*/
+    }
+  }
