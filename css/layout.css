@@ -1,6 +1,7 @@
 /*header {*/ 
     .layout-cabecalho { /*é melhor colocar com classe css - bloco - no lugar da tag.*/
     height: 60px; /*distancia inferior da imagem até a borda*/
+    line-height: 60px;
     border-bottom: 1px solid #ccc; /*borda inferior*/
 
     background-color: #fff;
@@ -14,9 +15,9 @@
     z-index: 9999; /*para o cabeçalho ficar por cima dos elementos conforme for rolando a tela (prioridade)*/
   }
   
-  .layout-cabecalho img {
-    margin-top: 12px; /*margem superior, ou seja, distancia do cabecalho para início da pagina*/
-  }
+ /* .layout-cabecalho img {
+    margin-top: 12px; /*margem superior, ou seja, distancia do cabecalho para início da pagina
+  }*/
   
 /*.container {
   width: 100%; assim, fica compatível com qualquer dispositivo

@@ -172,7 +172,7 @@ PLANO
 
 .depoimento > blockquote {
   position: relative;
-  
+
   margin: 0;
   padding: 0 60px;
 
@@ -205,4 +205,36 @@ PLANO
 
 .depoimento__autor > p {
   margin-top: 10px; /*espaço entre o nome e a foto*/
+}
+
+
+/*--------------------*\
+  NAVEGACAO
+\*--------------------*/
+.navegacao {
+}
+
+.navegacao__menu {
+  float: right;
+}
+
+
+/*--------------------*\
+  BOTAO-CHAVEADOR
+\*--------------------*/
+.botao-chaveador {
+  width: 24px;
+  height: 24px;
+  border: 0;
+
+  background: none; /*tira o fundo da imagem*/
+  background-image: url("../image/bars.png");
+
+  outline: none;
+}
+
+@media(min-width: 992px) { 
+  .botao-chaveador {
+    display: none; /*menu não exibe na tela maior*/
+  }
 }
