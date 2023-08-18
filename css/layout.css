@@ -67,3 +67,7 @@
       /*div:not -> não aplicar a regra no div ultima-coluna (para não aumentar o espaço até o rodapé*/
     }
   }
+
+  .layout-assinatura {
+    padding: 40px 0;
+  }
