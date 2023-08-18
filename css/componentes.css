@@ -3,6 +3,7 @@ PLANO
 \*--------------------*/
 
 .plano {  
+    position: relative; /*assim, a posição absoluta do plano--mais-popular usará esse bloco como referência*/
     padding: 10px;
     border: 1px solid #95a4a5;
 
@@ -18,6 +19,22 @@ PLANO
     
     pode usar mais de um media queries
   }*/
+
+  .plano--mais-popular::after {
+    position: absolute;
+    top: -10px; /*valor negativo para sair um pouco do plano*/
+    left: -10px;
+  
+    padding: 0 10px;
+  
+    background-color: #c20303;
+    color: #fff;
+  
+    font-size: 0.7142em; /* 10px */
+    line-height: 2.5;
+  
+    content: "MAIS POPULAR";
+  }
   
   .plano__cabecalho { /*título do plano*/
     margin: -10px; /*para colar o fundo com a borda, pois tem o padding*/
