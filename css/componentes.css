@@ -3,7 +3,7 @@ PLANO
 \*--------------------*/
 
 .plano {  
-    position: relative; /*assim, a posição absoluta do plano--mais-popular usará esse bloco como referência*/
+    position: relative; /*assim, a posição absoluta do plano--mais-popular usará esse primeiro elemento pau com pos rel*/
     padding: 10px;
     border: 1px solid #95a4a5;
 
@@ -157,6 +157,7 @@ PLANO
   DEPOIMENTO
 \*--------------------*/
 .depoimento {
+ 
   font-size: 2.2rem; /* 22px */
 }
 
@@ -170,11 +171,25 @@ PLANO
 }
 
 .depoimento > blockquote {
+  position: relative;
+  
   margin: 0;
   padding: 0 60px;
 
   text-align: center;
   font-size: 1em;
+}
+
+.depoimento > blockquote::before {
+  position: absolute;
+  left: 0;
+  top: -0.35em;
+
+  color: #ccc;
+
+  font-size: 8em; /* 176px */
+
+  content: "\201C"; /*unicode*/
 }
 
 .depoimento__autor {
