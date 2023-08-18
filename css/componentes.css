@@ -334,4 +334,13 @@ PLANO
 .campo {
   display: block;
   width: 100%; /*para a caixinha ocupar a tela toda*/
+  height: 2.8em;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  font-size: 1.4rem;
+}
 }
