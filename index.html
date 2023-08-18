@@ -15,36 +15,33 @@
   </head>
   <body>
 
-      <header class="layout-cabecalho layout-cabecalho--home"">
-        <div class="container">
+    <header class="layout-cabecalho  layout-cabecalho--home">
+      <div class="container">
 
-        <nav class="navegacao"> 
-            <img src="image/logo.png" width="100" height="35" alt="MyPilas">
+        <nav class="navegacao">
+          <img src="image/logo.png" width="100" height="35" alt="MyPilas">
 
-            <div class="navegacao__menu">
-              <button class="botao-chaveador"></button>
+          <div class="navegacao__menu">
+            <button class="botao-chaveador  js-botao-chaveador"></button>
 
-              <div class="navegacao__menu">
-                <button class="botao-chaveador"></button>
-    
-                <ul class="menu">
-                  <li class="menu__item">
-                    <a href="#">Como funciona</a>
-                  </li>
-                  <li class="menu__item">
-                    <a href="#planos">Planos e preços</a>
-                  </li>
-                  <li class="menu__item">
-                    <a href="#">Contato</a>
-                  </li>
-                  <li class="menu__item  menu__item--botao">
-                    <a href="#" class="botao  botao--login">Login</a>
-                  </li>
-                </ul>
-              </div>        
-          </nav>
-        </div>
-      </header>
+            <ul class="menu  js-menu">
+              <li class="menu__item">
+                <a href="#">Como funciona</a>
+              </li>
+              <li class="menu__item">
+                <a href="#planos">Planos e preços</a>
+              </li>
+              <li class="menu__item">
+                <a href="#">Contato</a>
+              </li>
+              <li class="menu__item  menu__item--botao">
+                <a href="#" class="botao  botao--login">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
 
       <section class="layout-chamada">
         <div class="container">
@@ -146,6 +143,8 @@
         <p>&copy; MyPilas. Todos os direitos reservados.</p> <!--&copy atalho para colocar caractere especial-->
       </div>
     </footer>
+
+    <script src="javascripts/app.js"></script> <!--é recomendado colocar no final da página para não ficar lento-->
 
   </body>
 </html>
